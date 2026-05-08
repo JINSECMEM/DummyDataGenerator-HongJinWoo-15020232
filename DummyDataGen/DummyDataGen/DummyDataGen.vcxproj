@@ -23,7 +23,7 @@
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{a83e9976-ea5e-4b2e-b96b-e856e8280da9}</ProjectGuid>
-    <RootNamespace>Project1</RootNamespace>
+    <RootNamespace>DummyDataGen</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
