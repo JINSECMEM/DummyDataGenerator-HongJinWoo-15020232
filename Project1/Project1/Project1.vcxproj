@@ -131,7 +131,17 @@
     </Link>
   </ItemDefinitionGroup>
 
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Generator.cpp" />
+    <ClCompile Include="CsvWriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataModel.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Generator.h" />
+    <ClInclude Include="CsvWriter.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
