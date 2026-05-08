@@ -8,4 +8,6 @@ struct Config {
     std::string start_time     = "2026-01-01T00:00:00";
     std::string end_time;        // empty = current time
     std::string out_dir        = "./output";
+    bool        verbose        = false;
+    int         preview        = 0;   // 0 = off; N > 0 → print first N rows to console
 };
