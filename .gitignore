@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.aps
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Claude Code
+.claude/
+
+# Generated output
+output/
